@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Pagging3.0Reddit</string>
+    <string name="text_retry">Повторить</string>
 </resources>

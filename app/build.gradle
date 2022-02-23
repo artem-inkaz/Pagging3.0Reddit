@@ -71,14 +71,23 @@ dependencies {
     implementation 'com.github.kirich1409:viewbindingpropertydelegate-noreflection:1.4.6'
     implementation "io.coil-kt:coil:1.2.1"
 
+    //ViewBinding
+    implementation 'com.github.kirich1409:viewbindingpropertydelegate:1.4.6'
+
     // Koin
     implementation "io.insert-koin:koin-core:3.0.1"
     implementation "io.insert-koin:koin-android:3.0.1"
 
     //Room and Coroutine support
-    implementation "androidx.room:room-runtime:2.2.5"
-    kapt "androidx.room:room-compiler:2.2.5"
-    implementation "androidx.room:room-ktx:2.2.5"
+    implementation "androidx.room:room-runtime:2.4.1"
+    kapt "androidx.room:room-compiler:2.4.1"
+    implementation "androidx.room:room-ktx:2.4.1"
+//    implementation "androidx.room:room-coroutines:2.1.0-alpha04"
+    // optional - Paging 3 Integration
+    implementation("androidx.room:room-paging:2.4.0-alpha04")
+
+    // debugging
+    implementation "com.jakewharton.timber:timber:4.7.1"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

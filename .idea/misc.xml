@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/GeekBrains/AndroidDeveloper/FourthQuatter/Sobes/paging3.0/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/GeekBrains/AndroidDeveloper/FourthQuatter/Sobes/paging3.0/app/src/main/res/layout/post_item.xml" value="0.67" />
+        <entry key="..\:/GeekBrains/AndroidDeveloper/FourthQuatter/Sobes/paging3.0/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/GeekBrains/AndroidDeveloper/FourthQuatter/Sobes/paging3.0/app/src/main/res/layout/item_loading_state.xml" value="0.33" />
+        <entry key="..\:/GeekBrains/AndroidDeveloper/FourthQuatter/Sobes/paging3.0/app/src/main/res/layout/loading_layout.xml" value="0.25677083333333334" />
+        <entry key="..\:/GeekBrains/AndroidDeveloper/FourthQuatter/Sobes/paging3.0/app/src/main/res/layout/post_item.xml" value="0.5" />
       </map>
     </option>
   </component>

@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/postHistoryRecyclerView"
+        android:id="@+id/post_rv"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
@@ -19,8 +19,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="invisible" />
-
-
+        tools:listitem="@layout/post_item"
+        tools:itemCount="5"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

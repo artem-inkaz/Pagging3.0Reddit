@@ -11,6 +11,6 @@ interface Api {
     suspend fun fetchPosts(
         @Query("limit") loadSize: Int = 0,
         @Query("after") after: String? = null,
-        @Query("before") before: String? = null
+        @Query("before") before: Any? = null
     ): Response<ApiResponse>
 }
